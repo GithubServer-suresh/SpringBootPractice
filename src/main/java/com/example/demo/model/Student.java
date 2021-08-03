@@ -8,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,7 +28,9 @@ public class Student {
 	private Long id;
 	private String name;
 	private String email;
+	
 	private LocalDate dob;
+	@Transient
 	private Integer age;
 	
 }
