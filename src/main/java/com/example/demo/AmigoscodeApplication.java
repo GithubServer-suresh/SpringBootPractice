@@ -10,7 +10,6 @@ public class AmigoscodeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AmigoscodeApplication.class, args);
-		System.out.println("This is dev_JobProcess");
 	}
 
 	/*
