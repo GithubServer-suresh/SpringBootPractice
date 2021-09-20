@@ -11,6 +11,7 @@ public class AmigoscodeApplication {
 	public static void main(String[] args) {
 		System.out.println("This is from STS");
 		SpringApplication.run(AmigoscodeApplication.class, args);
+		System.out.println("This is from Github");
 	}
 
 	/*
