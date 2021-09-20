@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AmigoscodeApplication {
 
 	public static void main(String[] args) {
+		System.out.println("This is main class added by dev");
 		SpringApplication.run(AmigoscodeApplication.class, args);
 	}
 
