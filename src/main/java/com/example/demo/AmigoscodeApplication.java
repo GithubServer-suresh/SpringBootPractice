@@ -12,6 +12,7 @@ public class AmigoscodeApplication {
 		System.out.println("This is from STS");
 		System.out.println("This is main class added by dev");
 		SpringApplication.run(AmigoscodeApplication.class, args);
+		System.out.println("Spring boot Main class");
 	}
 
 	/*
